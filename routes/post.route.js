@@ -4,8 +4,7 @@ const {auth} = require("../middlewares/auth")
 
 const postRouter = Router();
 
-
-//new post addedd //
+//new post added to the data //
 postRouter.post("/add",auth,async(req,res)=>{
     // const {title,body,device} = req.body;
 try {
